@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"
 import LogoutIcon from "@mui/icons-material/Logout"
 import BarChartRoundedIcon from "@mui/icons-material/BarChartRounded"
 
-import { useDashboard } from "../hooks/useDashboard"
+import { useDashboard } from "../hooks/UseDashboard"
 import SearchBar from "../components/Searchbar"
 import ExpenseForm from "../components/ExpenseForm"
 import ExpenseSummary from "../components/ExpenseSummary"
