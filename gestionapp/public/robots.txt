@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+//(ruta de despliegue)
+Sitemap: https://gestionApp.vercel.app/sidemap.xlm
