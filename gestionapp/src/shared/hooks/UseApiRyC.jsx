@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import axios from "axios"
-import { getCharacters } from "../services/rickAndMortyService"
+import { getCharacters } from "../services/RickAndMortyService"
 
 export function useApiRyC() {
   const [characters, setCharacters] = useState([])
