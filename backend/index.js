@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 
 // Permite peticiones desde el frontend
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors({ origin: ["http://localhost:5173", "https://gastify-f.vercel.app"] }));
 
 // Todas las rutas de autenticación estarán bajo /api/auth
 app.use("/api/auth", authRoutes);

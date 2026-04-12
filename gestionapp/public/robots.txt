@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-//(ruta de despliegue)
-Sitemap: https://gestionApp.vercel.app/sidemap.xlm
+Sitemap: https://gastify-f.vercel.app/
