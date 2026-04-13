@@ -185,7 +185,7 @@ export default function Header() {
           {isMobile && (
             <IconButton
               onClick={() => setDrawerOpen(true)}
-              sx={{ color: "#a855f7", mr: 1 }}
+              sx={{ color: "#a855f7", mr: 3.5 }}
               aria-label="Abrir menú"
             >
               <MenuIcon />
